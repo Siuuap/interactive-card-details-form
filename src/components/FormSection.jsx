@@ -1,4 +1,7 @@
 import Form from "./Form";
+import bgCardBack from "../images/bg-card-back.png";
+import bgCardFront from "../images/bg-card-front.png";
+import cardLogo from "../images/card-logo.svg";
 const FormSection = ({
   isComplete,
   cardHolderName,
@@ -23,25 +26,17 @@ const FormSection = ({
           <section className="card max-w-[375px] bg-cover bg-top relative mx-auto min-[1440px]:h-[100%] min-[1440px]:max-w-[500px] min-[1440px]:mr-0">
             {/* card-back */}
             <div className="card-back absolute right-5 top-6 w-[280px] min-[1440px]:w-[400px] min-[1440px]:top-[53%] min-[1440px]:right-[-200px]">
-              <img
-                className="w-full"
-                src="/src/images/bg-card-back.png"
-                alt="bg-card-back"
-              />
+              <img className="w-full" src={bgCardBack} alt="bg-card-back" />
               <p className="absolute top-[45%] right-[13%] text-[hsl(0,0%,100%)] text-[10px] ">
                 {!cardCvc ? "000" : cardCvc}
               </p>
             </div>
             {/* Card-front */}
             <div className="card-front absolute right-[75px] top-28 w-[280px] min-[1440px]:w-[400px] min-[1440px]:top-[18%] min-[1440px]:right-[-100px]">
-              <img
-                className="w-fit"
-                src="/src/images/bg-card-front.png"
-                alt="bg-card-front"
-              />
+              <img className="w-fit" src={bgCardFront} alt="bg-card-front" />
               <img
                 className="absolute z-50 top-4 left-4 h-6 "
-                src="/src/images/card-logo.svg"
+                src={cardLogo}
                 alt=""
               />
               <p className="absolute top-[50%] left-4 text-[hsl(0,0%,100%)] tracking-widest text-[18px] min-[1440px]:text-[24px]">
