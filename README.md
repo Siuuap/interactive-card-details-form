@@ -1,8 +1,9 @@
-# React + Vite
+This project is from www.frontendmentor.io. I created it by using React.js and Tailwind CSS and made it be responsive. Moreover, this project also has a form validation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features:
 
-Currently, two official plugins are available:
+- User Input: The user inputs their card information through an interactive interface.
+- Feedback System: After submits the form, the form provides feedback to the users, indicating if their input is wrong format.
+- Complete Condition: The form completes when the user inputs the correct format.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Credit: https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw*
