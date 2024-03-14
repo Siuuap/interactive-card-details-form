@@ -1,6 +1,6 @@
 Project Description: Interactive Card Details Form
 
-This project is from www.frontendmentor.io. I created it by using React.js and Tailwind CSS and made it be responsive. Moreover, this project also has a form validation.
+This project is from www.frontendmentor.io that allows users to input and validate credit card details in real-time, providing immediate feedback on input errors and formatting.
 
 Key Features:
 
