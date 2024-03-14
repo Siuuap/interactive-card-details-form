@@ -8,4 +8,6 @@ This project is from www.frontendmentor.io that allows users to input and valida
 - Feedback System: After submits the form, the form provides feedback to the users, indicating if their input is wrong format.
 - Complete Condition: The form completes when the user inputs the correct format.
 
+Deployed Project: https://guess-my-number-dn.vercel.app/
+
 *Credit: https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw*
