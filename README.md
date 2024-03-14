@@ -1,3 +1,5 @@
+Project Description: Interactive Card Details Form
+
 This project is from www.frontendmentor.io. I created it by using React.js and Tailwind CSS and made it be responsive. Moreover, this project also has a form validation.
 
 Key Features:
