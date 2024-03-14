@@ -1,8 +1,8 @@
-Project Description: Interactive Card Details Form
+## Project Description: Interactive Card Details Form
 
 This project is from www.frontendmentor.io that allows users to input and validate credit card details in real-time, providing immediate feedback on input errors and formatting.
 
-Key Features:
+## Key Features:
 
 - User Input: The user inputs their card information through an interactive interface.
 - Feedback System: After submits the form, the form provides feedback to the users, indicating if their input is wrong format.
